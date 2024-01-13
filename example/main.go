@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"fyne.io/systray"
-	"fyne.io/systray/example/icon"
+	"cardinalby/systray"
+	"cardinalby/systray/example/icon"
 )
 
 func main() {
