@@ -20,8 +20,8 @@ removing the GTK dependency and support for legacy linux system tray.
 ```go
 package main
 
-import "cardinalby/systray"
-import "cardinalby/systray/example/icon"
+import "github.com/cardinalby/systray"
+import "github.com/cardinalby/systray/systray/example/icon"
 
 func main() {
 	systray.Run(onReady, onExit)
@@ -61,7 +61,7 @@ In your app you can use a standard `fyne.Menu` structure and pass it to `SetSyst
 ```
 
 You can find out more in the toolkit documentation:
-[System Tray Menu](https://developer.cardinalby/explore/systray).
+[System Tray Menu](https://developer.fyne.io/explore/systray).
 
 ### Run in another toolkit
 
@@ -70,7 +70,7 @@ For this reason there is another entry point `RunWithExternalLoop`.
 This function of the library returns a start and end function that should be called
 when the application has started and will end, to loop in appropriate features.
 
-See [full API](https://pkg.go.dev/cardinalby/systray?tab=doc) as well as [CHANGELOG](https://github.com/fyne-io/systray/tree/master/CHANGELOG.md).
+See [full API](https://pkg.go.dev/fyne.io/systray?tab=doc) as well as [CHANGELOG](https://github.com/fyne-io/systray/tree/master/CHANGELOG.md).
 
 Note: this package requires cgo, so make sure you set `CGO_ENABLED=1` before building.
 
