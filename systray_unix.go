@@ -19,8 +19,8 @@ import (
 	"github.com/godbus/dbus/v5/introspect"
 	"github.com/godbus/dbus/v5/prop"
 
-	"github.com/cardinalby/systray/internal/generated/menu"
-	"github.com/cardinalby/systray/internal/generated/notifier"
+	"github.com/cardinalby/go-systray/internal/generated/menu"
+	"github.com/cardinalby/go-systray/internal/generated/notifier"
 )
 
 const (

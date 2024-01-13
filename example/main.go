@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cardinalby/systray"
-	"github.com/cardinalby/systray/example/icon"
+	"github.com/cardinalby/go-systray"
+	"github.com/cardinalby/go-systray/example/icon"
 )
 
 func main() {

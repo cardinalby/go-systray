@@ -1,4 +1,4 @@
-module github.com/cardinalby/systray
+module github.com/cardinalby/go-systray
 
 go 1.19
 
